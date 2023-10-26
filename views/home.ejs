@@ -1,0 +1,14 @@
+<%- include("header")%>
+<h1>Home</h1>
+<p> <%= startingcont %> </p>
+
+<%posts.forEach((post) => {%>
+
+  <h1><%= post.title %></h1>
+  <p>
+  <%=  post.data %>
+   </p>
+
+<% });%>
+
+<%- include("footer") %>

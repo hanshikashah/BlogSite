@@ -1,0 +1,6 @@
+//home.ejs {challenge14}
+<% console.log(posts); %>
+
+<% posts.forEach(function(post) { %>
+  <% console.log(posts.title); %>
+<%}); %>
